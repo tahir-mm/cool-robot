@@ -57,7 +57,7 @@ public class RobotApplication {
                      */
                     String result = simulator.processCommand(command);
                     if(null != result) {
-                        System.out.println("Output:" + result);
+                        System.out.println("Output: " + result);
                     }
                 } catch (RobotSimulatorException e) {
                     /**

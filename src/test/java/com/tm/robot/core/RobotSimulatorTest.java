@@ -12,7 +12,6 @@ public class RobotSimulatorTest {
     private static final int WIDTH = 4;
     private static final int HEIGHT = 4;
 
-
     @Test
     public void testMoveCommand() throws RobotSimulatorException {
         RobotSimulator simulator = new RobotSimulator(

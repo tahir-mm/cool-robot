@@ -100,8 +100,8 @@ public class RobotSimulator {
         int yAxis = 0;
         Position position = null;
         if (command == Command.PLACE) {
-            commands = input[1].split(",");
             try {
+                commands = input[1].split(",");
 
                 xAxis = Integer.parseInt(commands[0]);
                 yAxis = Integer.parseInt(commands[1]);

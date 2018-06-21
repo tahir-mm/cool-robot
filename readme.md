@@ -10,7 +10,9 @@ The application is a simulation of a toy robot moving on a square tabletop, of d
 
 ## Build & Run
 
-- build: `mvn clean install` - a compiled jar will be available in target folder
+- build: `mvn clean install` - a compiled jar will be available in target folder and use following
+
+commands `java -jar cool-robot-1.0-SNAPSHOT.jar` to run from jar file.
 
 - Run: `mvn exec:java`
 
