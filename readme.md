@@ -14,29 +14,50 @@ The application is a simulation of a toy robot moving on a square tabletop, of d
 
 - Run: `mvn exec:java`
 
-## Sample Run Commands
-`>> PLACE 0,2,EAST
- >> MOVE
- >> REPORT
- Output:1,2,EAST
- >> PLACE 0,5,WEST
- Invalid coordinates!
- >> REPORT
- Output:1,2,EAST
- >> MOVE
- >> MOVE
- >> MOVE
- >> MOVE
- >> REPORT
- Output:4,2,EAST
- >> LEFT
- >> REPORT
- Output:4,2,NORTH
- >> MOVE
- >> MOVE
- >> MOVE
- >> MOVE
- >> REPORT
- Output:4,4,NORTH
- >> QUIT
-`
+### Sample Run Commands
+>> PLACE 0,2,EAST
+>> MOVE
+
+>> REPORT
+
+Output:1,2,EAST
+
+>> PLACE 0,5,WEST
+
+Invalid coordinates!
+
+>> REPORT
+
+Output:1,2,EAST
+
+>> MOVE
+
+>> MOVE
+
+>> MOVE
+
+>> MOVE
+
+>> REPORT
+
+Output:4,2,EAST
+
+>> LEFT
+
+>> REPORT
+
+Output:4,2,NORTH
+
+>> MOVE
+
+>> MOVE
+
+>> MOVE
+
+>> MOVE
+
+>> REPORT
+
+Output:4,4,NORTH
+
+>> QUIT
